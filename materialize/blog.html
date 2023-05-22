@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="/materialize/css/materialize.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link rel="stylesheet" href="/materialize/css/style.css">
+ <title></title>
+</head>
+<body>
+        <!-- menu -->
+  <div >    
+   <nav>
+  <a href="#!" class="brand-logo">Noblesse</a>
+     <ul id="slide-out" class="sidenav">
+         <li>
+          <div class="user-view">
+           <div class="background">
+             <img src="">
+           </div>
+           <a href="#user"><img class="circle" src="/materialize/img/téléchargement (3) (1).jpeg"></a>
+           <a href="#name"><span class="white-text name">John Doe</span></a>
+           <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+          </div>
+         </li>
+         <li>
+          <a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a>
+         </li>
+         <li><a href="#!">Second Link</a></li>
+         <li><div class="divider"></div></li>
+         <li><a class="subheader">Subheader</a></li>
+         <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+     </ul>
+       <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+ </nav>
+  </div>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+ <!------------end menu ------->
+ <div class="container">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="/materialize/img/ChatGPT.jpg">
+        </div>
+      </div>
+      <div class=" postion-auteur chip">
+       <img src="/materialize/img/ChatGPT.jpg" alt="Contact Person">
+       Jane Doe
+      </div>
+      <div class="blogcontenu">
+        <big> 
+        Est-ce avantageuse de créé un site de blogue sur no-code ?
+        </big>
+       <p>
+          Oui, créer un site de blogue sur no-code peut être avantageux pour plusieurs raisons. Tout d'abord, le no-code permet aux utilisateurs de créer des sites web sans avoir de connaissances approfondies en programmation. Cela signifie que vous pouvez créer un site de blogue professionnel sans avoir à apprendre des langages de programmation complexes.
+          
+          En outre, les outils de création de sites web no-code sont souvent conviviaux et offrent de nombreuses fonctionnalités telles que des modèles prédéfinis, des plugins et des widgets, qui peuvent vous aider à personnaliser facilement votre site web et à ajouter des fonctionnalités supplémentaires telles que des formulaires de contact, des listes de diffusion, des boutons de partage social et des fonctions de recherche.
+           <blockquote>
+            Je veux créer un site de blogue et d'affiliation mais je sais pas le domaine auquel m'intéresser
+           </blockquote>
+          De plus, créer un site de blogue sur no-code peut vous permettre de gagner du temps et de l'argent, car vous n'avez pas à engager un développeur pour créer et gérer votre site web. Cela peut être particulièrement utile si vous êtes un débutant ou si vous disposez d'un budget limité.
+          
+          Enfin, le no-code peut vous permettre de créer des sites web évolutifs et personnalisables, car vous pouvez facilement ajouter des fonctionnalités et des mises à jour à votre site web au fil du temps, sans avoir à recourir à un développeur ou à des compétences en programmation.
+          
+          En résumé, créer un site de blogue sur no-code peut être une option avantageuse pour ceux qui souhaitent créer un site web professionnel, personnalisé et évolutif sans avoir à apprendre la programmation ou à engager un développeur.
+       </p>
+      </div>
+    </div>
+ </div>
+ <!---------footer---------->
+ <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+  </footer>
+<script src="/materialize/js/materialize.js"></script>
+<script>
+ document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+    console.log(instances)
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+  });
+  
+</script>
+</body>
+</html>

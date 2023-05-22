@@ -1,0 +1,76 @@
+body{
+ 
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 360;
+}
+div .anytitle {
+margin: 10px;
+padding-top:20px;
+}
+
+.anytitle h1{
+ color: orangered;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight:1000px;
+   font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color:dodgerblue;
+  
+}
+span .black-text{
+ text-align: center
+ 
+}
+.po{
+ background-image: url(/materialize/img/backgrounds/Picsart_23-03-26_21-04-47-730.png);
+background-color: lightskyblue;
+ background-repeat: no-repeat;
+background-size: 3000px;
+ width: auto;
+ height:250px ;
+ position: relative;
+ background-size: 1400px;
+ 
+ 
+}
+.quality{
+ font-size: 20px;
+ position: relative;
+ margin-top:0px;
+ bottom: 0px;
+ color: dodgerblue;
+ 
+}
+.st{
+ color:dodgerblue;
+}
+.fond{
+ background-image: url(/materialize/img/backgrounds/Picsart_23-03-26_21-22-43-998.png);
+
+ background-size: 500px;
+background-color:  red;
+
+ 
+}
+.espa{
+ position: relative;
+margin-top: 200px;
+}
+.postion-auteur{
+ position: relative;
+ top: -10px;
+ margin: 10px;
+ 
+ 
+}
+.blogcontenu > blockquote{
+ background-color: lightgray;
+ text-align: justify;
+ font-size: 16px;
+}
+.blogcontenu big{
+ font-size: 20px;
+ font-weight: 500;
+}
